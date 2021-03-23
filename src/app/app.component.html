@@ -1,0 +1,11 @@
+<input type="text" placeholder="Please type some text!" size="25"
+(input)="searchCat($event)">
+
+<table>
+  <tr>
+    <th>Categories</th>
+  </tr>
+  <tr *ngFor="let category of catLists">
+    <td>{{ category }}</td>
+  </tr>
+</table>
